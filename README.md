@@ -1,6 +1,6 @@
 
 ## Cyclistic Bike Project 
-#Introduction
+##Introduction
 This is my project for the google data analytics certificate on coursera. The time framework that i will be analyzing would be from september 2025 to august 2026
 
 ##Goals 
@@ -296,6 +296,11 @@ Because the data also show us that a lot of people also use their bikes after 6:
 
 ##Conclusion
 The analysis shows the difference between members and cassuals, that even where members are the dominant part of the service there is still a lot of room to grow, now we understand some of the practical ways casuals use their bikes and with that in mind Cyclistic can elaborate ways of improving the member tier and making it better 
+
+
+
+
+
 
 
 
