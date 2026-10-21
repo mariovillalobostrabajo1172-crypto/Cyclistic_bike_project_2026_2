@@ -3,25 +3,25 @@
 #Introduction
 This is my project for the google data analytics certificate on coursera. The time framework that i will be analyzing would be from september 2025 to august 2026
 
-#Goals 
+##Goals 
 To answer the next question so the company can take actions in a data based form. 
 The question is :
 
 How do annual members and casual riders use cyclistic bikes differently?
 
-#Data
+##Data
 
 The data its recovered from (https://divvy-tripdata.s3.amazonaws.com/index.html) 
 (Note that the data has been made available by Motivate International Inc. under license)
 The data was recovered from September 2025 to August 2026.
 Note during the analysis the month of March was excluded because in the tables of started_at,ended_at  the format was filled in incorrectly and wrong, without the possibility to use and reformat the information so we can use it, so in this analysis it would be without the month of March.
 
-#Tools
+##Tools
 Google Sheets,
 SQL
 Tableau
 
-#Process
+##Process
 First i join all the data (semptember 2025-august2026) in a single table so i dont have to repeat most of the queries    
 
 ride_id
@@ -53,7 +53,7 @@ Type of membership
 
 
 
-#Data Cleaning
+##Data Cleaning
 The data cleaning process were joining all the data loock for null values and adding column(ride_length_in_mins,day of the week, month)
 The query returns 5,039,906 null values in total,  once removed we can start the analysis 
 
@@ -79,7 +79,7 @@ Total number of casuals are 1,304,771
 
 
 
-#Average trip duration per Month
+##Average trip duration per Month
  
 
 
@@ -130,7 +130,7 @@ The total average of monthsin the lapse of Sep 2025 to Aug 2026  by casuals is 1
 
 
 
-#Preference on Bikes
+##Preference on Bikes
 
 
 The total number for the preference of the bike :
@@ -156,7 +156,7 @@ Member classic bike 1,158,386
 
 
 
-#Riders per Day
+##Riders per Day
 
 
 Something that  can escape at first sight from the graph are the most concurred days for each membership, so we will display them below
@@ -181,7 +181,7 @@ Friday :205,034
 
 
 
-#Average  trip duration per Day 
+##Average  trip duration per Day 
 
 
 
@@ -232,7 +232,7 @@ The average trip duration on the week by casuals are 19.97
 
 
 
-#Hour
+##Hour
 
 
 
@@ -254,7 +254,7 @@ Cassuals rise steadily, the peak are also at 6:00 pm, also they initiated with m
 The wednesday its the day where both memberships rides the least
 
 
-#How do annual members and casuals riders use ciclystic bikes differently?
+##How do annual members and casuals riders use ciclystic bikes differently?
 
 
 Casual riders average more trip duration than members
@@ -269,7 +269,7 @@ Cassuals tend to have a pretty consistent number of users from monday to thursda
 
 The average numbe for the casual users in the aftermidnight its bigger than the members one
 
-#Recomendations
+##Recomendations
 
 Discount
 I think that a discount previous to the higher riders season the company should make anadvertisement of a discount on the annual membership for the first year, specially on electric bikes
@@ -294,8 +294,10 @@ One way to asegurate the loyalty of the users its to  create a community around 
 Lighninght 
 Because the data also show us that a lot of people also use their bikes after 6:00 pm we could considerate putting a flashlight in the electric  models so people that may struggle to see or that their road isnt well illuminated doesnt feel insecure 
 
-#Conclusion
+##Conclusion
 The analysis shows the difference between members and cassuals, that even where members are the dominant part of the service there is still a lot of room to grow, now we understand some of the practical ways casuals use their bikes and with that in mind Cyclistic can elaborate ways of improving the member tier and making it better 
+
+
 
 
 
