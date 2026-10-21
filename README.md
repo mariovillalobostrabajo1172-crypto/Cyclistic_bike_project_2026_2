@@ -5,7 +5,7 @@
 
 This is my project for the google data analytics certificate on coursera. The time framework that i will be analyzing would be from september 2025 to august 2026
 
-##Goals 
+## Goals 
 
 To answer the next question so the company can take actions in a data based form. 
 The question is :
