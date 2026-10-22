@@ -220,6 +220,7 @@ Friday :205,034
 ## Average  trip duration per Day 
 
 
+<img width="717" height="530" alt="Anotación 2026-10-22 173709 (2)" src="https://github.com/user-attachments/assets/955f5f40-211e-4a75-aa65-c9cd43c12caf" />
 
  
 
@@ -271,6 +272,7 @@ The average trip duration on the week by casuals are 19.97
 ## Hour
 
 
+<img width="799" height="481" alt="Anotación 2026-10-22 173949 (2)" src="https://github.com/user-attachments/assets/710b56a8-b510-491b-b063-25f4aed3daec" />
 
 
 
