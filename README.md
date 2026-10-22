@@ -60,10 +60,16 @@ Type of membership
 The data cleaning process were joining all the data loock for null values and adding column(ride_length_in_mins,day of the week, month)
 The query returns 5,039,906 null values in total,  once removed we can start the analysis 
 
-
+<img width="1366" height="728" alt="Anotación 2026-10-21 185215" src="https://github.com/user-attachments/assets/cc97ce0c-7898-40df-a28d-3e84ec34616f" />
 Total rides per month September 2025-August 2026
 
 This graph shows the number of riders in each month
+
+
+
+
+
+
 
 
 Total number of members are 2,412,835
