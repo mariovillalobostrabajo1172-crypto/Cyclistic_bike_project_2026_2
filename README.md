@@ -145,6 +145,18 @@ The total average of monthsin the lapse of Sep 2025 to Aug 2026  by casuals is 1
 ## Preference on Bikes
 
 
+
+
+<img width="692" height="475" alt="Anotación 2026-10-22 172904 (2)" src="https://github.com/user-attachments/assets/661b54f7-c98d-4941-bdc8-ae9f78b4bc06" />
+
+
+
+
+
+
+
+
+
 The total number for the preference of the bike :
 
 Casual electric bike  769,775
@@ -169,6 +181,18 @@ Member classic bike 1,158,386
 
 
 ## Riders per Day
+
+<img width="597" height="515" alt="Anotación 2026-10-22 173206 (2)" src="https://github.com/user-attachments/assets/86466dd2-4133-4dce-a93c-5cdcddd8113f" />
+
+
+
+
+
+
+
+
+
+
 
 
 Something that  can escape at first sight from the graph are the most concurred days for each membership, so we will display them below
