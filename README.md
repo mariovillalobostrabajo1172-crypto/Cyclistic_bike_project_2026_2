@@ -27,6 +27,8 @@ Tableau
 ## Process
 First i join all the data (semptember 2025-august2026) in a single table so i dont have to repeat most of the queries    
 
+| Row | Description |
+| :--- | :--- |
 | `ride_id` | Unique ID assigned to each ride |
 | `rideable_type` | Type of bike available |
 | `started_at` | Date and time at the start of the trip |
