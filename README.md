@@ -27,31 +27,19 @@ Tableau
 ## Process
 First i join all the data (semptember 2025-august2026) in a single table so i dont have to repeat most of the queries    
 
-|ride_id |Unique ID assigned to each ride|
-
-|rideable_type|Type  of bike available |
-
-|started_at|Date and time at the start of the trip |
-
-|ended_at|Date and time at the end of the trip |
- 
-|start_station_name|Name of the station where the trip beginns|
-
-|end_station_name|Name of the station where the trip ends|
-
-|start_station_id|ID of the station where the trip beginns |
- 
-|end_station_id|ID of the station where the trip ends|
-
-|start_lat|Latitude of starting station|
-
-|end_lat|Latitude of ending station|
-
-|start_lng|Longitude of the starting station|
-
-|end_lng|Longitude of the ending station|
- 
-|member_casual|Type of membership|
+| `ride_id` | Unique ID assigned to each ride |
+| `rideable_type` | Type of bike available |
+| `started_at` | Date and time at the start of the trip |
+| `ended_at` | Date and time at the end of the trip |
+| `start_station_name` | Name of the station where the trip begins |
+| `end_station_name` | Name of the station where the trip ends |
+| `start_station_id` | ID of the station where the trip begins |
+| `end_station_id` | ID of the station where the trip ends |
+| `start_lat` | Latitude of starting station |
+| `end_lat` | Latitude of ending station |
+| `start_lng` | Longitude of the starting station |
+| `end_lng` | Longitude of the ending station |
+| `member_casual` | Type of membership |
 
 
 
