@@ -93,7 +93,8 @@ Total number of casuals are 1,304,771
  
 
 
-![Uploading Anotación 2026-10-22 122057 (2).png…]()
+<img width="978" height="510" alt="Anotación 2026-10-22 122057 (2)" src="https://github.com/user-attachments/assets/eeeb5bd2-87eb-4fdf-b768-a851821066a7" />
+
 
 
 
