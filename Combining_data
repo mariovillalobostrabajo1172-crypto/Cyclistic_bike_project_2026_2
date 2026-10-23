@@ -1,3 +1,4 @@
+
 CREATE TABLE `nyc-trees-homework-2005.final_project_clean_data.hope-final_data` AS (
   SELECT * FROM `nyc-trees-homework-2005.202608divvytripdata_1789513757494.202608-divvy-tripdata` 
   UNION ALL
