@@ -1,0 +1,16 @@
+
+SELECT 
+  COUNT(*) - COUNT(ride_id) AS null_ride_id,
+  COUNT(*) - COUNT(rideable_type) AS null_rideable_type,
+  COUNT(*) - COUNT(started_at) AS null_started_at,
+  COUNT(*) - COUNT(ended_at) AS null_ended_at,
+  COUNT(*) - COUNT(start_station_name) AS null_start_station_name,
+  COUNT(*) - COUNT(start_station_id) AS null_start_station_id,
+  COUNT(*) - COUNT(end_station_name) AS null_end_station_name,
+  COUNT(*) - COUNT(end_station_id) AS null_end_station_id,
+  COUNT(*) - COUNT(start_lat) AS null_start_lat,
+  COUNT(*) - COUNT(start_lng) AS null_start_lng,
+  COUNT(*) - COUNT(end_lat) AS null_end_lat,
+  COUNT(*) - COUNT(end_lng) AS null_end_lng,
+  COUNT(*) - COUNT(member_casual) AS null_member_casual
+FROM `nyc-trees-homework-2005.final_project_clean_data.hope-final_data`  
