@@ -1,0 +1,24 @@
+CREATE TABLE `nyc-trees-homework-2005.final_project_clean_data.hope-final_data` AS (
+  SELECT * FROM `nyc-trees-homework-2005.202608divvytripdata_1789513757494.202608-divvy-tripdata` 
+  UNION ALL
+  SELECT * FROM `nyc-trees-homework-2005.202607divvytripdata_1789861587896.202607-divvy-tripdata`  
+  UNION ALL
+  SELECT * FROM `nyc-trees-homework-2005.202606divvytripdata3_1791406660572.202606-divvy-tripdata _3_`  
+  UNION ALL
+  SELECT * FROM `nyc-trees-homework-2005.202605divvytripdata_1790184648781.202605-divvy-tripdata` 
+  UNION ALL
+  SELECT * FROM `nyc-trees-homework-2005.202604divvytripdata_1790178701263.202604-divvy-tripdata`  
+  UNION ALL
+  SELECT * FROM `nyc-trees-homework-2005.202602divvytripdata_1790179809192.202602-divvy-tripdata` 
+  UNION ALL
+  SELECT * FROM `nyc-trees-homework-2005.202601divvytripdata_1790186070080.202601-divvy-tripdata`  
+  UNION ALL
+  SELECT * FROM `nyc-trees-homework-2005.202512divvytripdata_1790200757422.202512-divvy-tripdata`  
+  UNION ALL
+  SELECT * FROM `nyc-trees-homework-2005.202511divvytripdata_1790201786878.202511-divvy-tripdata`  
+  UNION ALL
+  SELECT * FROM `nyc-trees-homework-2005.202510divvytripdata_1790203332068.202510-divvy-tripdata`
+  UNION ALL
+  SELECT * FROM `nyc-trees-homework-2005.202509divvytripdata_1790204131340.202509-divvy-tripdata` 
+);
+  
