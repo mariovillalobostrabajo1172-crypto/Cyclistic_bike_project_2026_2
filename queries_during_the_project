@@ -1,0 +1,40 @@
+
+--this query its to calculated the trips per hour 
+
+SELECT member_casual, 
+EXTRACT(HOUR FROM started_at) AS hour_of_day, 
+COUNT(*) AS total_trips
+FROM `nyc-trees-homework-2005.2026_2025_all_data_divvy_trip_data.project_data` 
+GROUP BY member_casual,hour_of_day
+ORDER BY member_casual;
+
+--this query its to calculated the number of rides per month
+
+SELECT member_casual, month, 
+COUNT(*) AS total_rides_per_month
+FROM `nyc-trees-homework-2005.2026_2025_all_data_divvy_trip_data.project_data` 
+GROUP BY member_casual, month
+ORDER BY member_casual;
+
+--this query its to count the number the number for each of the bikes preferences
+
+SELECT member_casual, rideable_type, 
+COUNT(*) AS total_rides
+FROM `nyc-trees-homework-2005.2026_2025_all_data_divvy_trip_data.project_data`
+GROUP BY member_casual, rideable_type
+ORDER BY member_casual, total_rides DESC;
+
+--this query its to count the number of trips poer month 
+SELECT member_casual, month, 
+COUNT(*) AS total_rides_per_month
+FROM `nyc-trees-homework-2005.2026_2025_all_data_divvy_trip_data.project_data`
+GROUP BY member_casual, month
+ORDER BY member_casual;
+
+--thi query its to count the number of rides per week
+SELECT member_casual, day_of_week,COUNT(*) AS total_rides_per_week
+FROM `nyc-trees-homework-2005.2026_2025_all_data_divvy_trip_data.project_data`
+GROUP BY member_casual,day_of_week
+ORDER BY member_casual;
+
+
